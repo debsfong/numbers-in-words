@@ -17,7 +17,7 @@ this in irb:
     >> 4.class
     => Fixnum
     >> 4.methods
-    \["inspect", "%", "<<", ...
+    => ["inspect", "%", "<<", ...
 
 The number 4 is of class `Fixnum` and it has methods on it.  Your
 challenge is to add an `in_words` method to `Fixnum`.
